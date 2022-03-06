@@ -35,7 +35,7 @@ struct GameView: View {
                if viewModel.selectionWasMade{
                   Button(action: viewModel.advanceGameState,
                          label: {
-                      BottomText(str: "Next")
+                      BottomText(str: "다음문제")
                   })
              }
            }.padding(.bottom)
