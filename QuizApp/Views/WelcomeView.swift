@@ -13,19 +13,19 @@ struct WelcomeView: View {
             ZStack {
                 GameColor.main.ignoresSafeArea()
             VStack {
-                    Text("✏️Jlpt N5 words Quiz📚")
+                    Text("✏️Jlpt N4 단어퀴즈📚")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(Color.purple)
                         .padding()
-                    Text("Select the correct answer to each of the following questions.")
+                    Text("네가지 보기중에 옳은것을 고르시오.")
                         .font(.title2)
                         .padding()
                     Spacer()
                     NavigationLink(
                         destination: GameView(),
                         label:{
-                            BottomText(str: "Start")
+                            BottomText(str: "시작")
                                 .padding(.bottom)
                         })
                 }
