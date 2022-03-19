@@ -13,7 +13,7 @@ struct Question: Hashable {
     let correctAnswerIndex: Int
     
     static let allQuestions: [Question] = [
-     Question(questionText: "How do you read this word?雨",
+     Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.雨",
              possibleAnswers: [
              "ゆき",
              "はれ",
@@ -21,7 +21,7 @@ struct Question: Hashable {
              "あめ",
              ],
              correctAnswerIndex: 3),
-    Question(questionText: "How do you read this word?書いて",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.書いて",
              possibleAnswers: [
              "かいて",
              "きいて",
@@ -29,7 +29,7 @@ struct Question: Hashable {
              "ひいて",
              ],
              correctAnswerIndex: 0),
-    Question(questionText: "How do you read this word?中",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.中",
              possibleAnswers: [
              "そば",
              "そと",
@@ -37,7 +37,7 @@ struct Question: Hashable {
              "よこ",
              ],
              correctAnswerIndex: 2),
-    Question(questionText: "How do you read this word?小さい",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.小さい",
              possibleAnswers: [
              "ちいさい",
              "ちさい",
@@ -45,7 +45,7 @@ struct Question: Hashable {
              "しさい",
              ],
              correctAnswerIndex: 0),
-    Question(questionText: "How do you read this word?火よう日",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.火よう日",
              possibleAnswers: [
              "どようび",
              "すいようび",
@@ -53,7 +53,7 @@ struct Question: Hashable {
              "にちようび",
              ],
              correctAnswerIndex: 2),
-    Question(questionText: "How do you read this word?空",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.空",
              possibleAnswers: [
              "いえ",
              "うみ",
@@ -61,7 +61,7 @@ struct Question: Hashable {
              "そら",
              ],
              correctAnswerIndex: 3),
-    Question(questionText: "How do you read this word?百人",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.百人",
              possibleAnswers: [
              "ひゃくにん",
              "びゃくにん",
@@ -69,7 +69,7 @@ struct Question: Hashable {
              "びゃくじん",
              ],
              correctAnswerIndex: 0),
-    Question(questionText: "How do you read this word?魚",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.魚",
              possibleAnswers: [
              "ねこ",
              "とり",
@@ -77,7 +77,7 @@ struct Question: Hashable {
              "さかな",
              ],
              correctAnswerIndex: 3),
-    Question(questionText: "How do you read this word?半分",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.半分",
              possibleAnswers: [
              "はんふん",
              "はんぶん",
@@ -85,7 +85,7 @@ struct Question: Hashable {
              "ほんふん",
              ],
              correctAnswerIndex: 1),
-    Question(questionText: "How do you read this word?間",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.?間",
              possibleAnswers: [
              "あいた",
              "となり",
@@ -93,7 +93,7 @@ struct Question: Hashable {
              "どなり",
              ],
              correctAnswerIndex: 2),
-    Question(questionText: "How do you read this word?三つ",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.三つ",
              possibleAnswers: [
              "いつつ",
              "みっつ",
@@ -101,7 +101,7 @@ struct Question: Hashable {
              "ごつ",
              ],
              correctAnswerIndex: 1),
-    Question(questionText: "How do you read this word?元気",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.元気",
              possibleAnswers: [
              "けんき",
              "げんき",
@@ -109,7 +109,7 @@ struct Question: Hashable {
              "てんき",
              ],
              correctAnswerIndex: 1),
-    Question(questionText: "How do you write this word?わいしゃつ",
+    Question(questionText: "다음 히리가나를 카타카나로 올바르게 읽은것을 보기중에 고르시오.わいしゃつ",
              possibleAnswers: [
              "ウイシャソ",
              "ウイシャツ",
@@ -117,7 +117,7 @@ struct Question: Hashable {
              "ワイシャツ",
              ],
              correctAnswerIndex: 3),
-    Question(questionText: "How do you write this word?かわ",
+    Question(questionText: "다음 히라가나를 한자 올바르게 쓴것을 보기중에 고르세요.かわ",
              possibleAnswers: [
              "花",
              "山",
@@ -125,7 +125,7 @@ struct Question: Hashable {
              "木",
              ],
              correctAnswerIndex: 2),
-    Question(questionText: "How do you write this word?がっこう",
+    Question(questionText: "다음 히라가나를 한자로 올바르게 쓴것을 보기중에 고르세요.がっこう",
              possibleAnswers: [
              "宇校",
              "学校",
@@ -133,7 +133,7 @@ struct Question: Hashable {
              "学枚",
              ],
              correctAnswerIndex: 1),
-    Question(questionText: "How do you write this word?みて",
+    Question(questionText: "다음 히라가나를 한자로 올바르게 쓴것을 보기중에 고르세요.みて",
              possibleAnswers: [
              "見て",
              "買て",
@@ -141,7 +141,7 @@ struct Question: Hashable {
              "目て",
              ],
              correctAnswerIndex: 0),
-    Question(questionText: "How do you write this word?たかい",
+    Question(questionText: "다음 히라가나를 한자로 올바르게 쓴것을 보기중에 고르세요.たかい",
              possibleAnswers: [
              "高い",
              "安い",
@@ -149,7 +149,7 @@ struct Question: Hashable {
              "新い",
              ],
              correctAnswerIndex: 0),
-    Question(questionText: "How do you write this word?かいしゃ",
+    Question(questionText: "다음 히라가나를 한자로 올바르게 쓴것을 보기중에 고르세요.かいしゃ",
              possibleAnswers: [
              "公仕",
              "公社",
@@ -157,7 +157,7 @@ struct Question: Hashable {
              "会社",
              ],
              correctAnswerIndex: 3),
-    Question(questionText: "How do you write this word?いわないで",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.いわないで",
              possibleAnswers: [
              "行わないで",
              "立わないで",
@@ -165,7 +165,7 @@ struct Question: Hashable {
              "食わないで",
              ],
              correctAnswerIndex: 2),
-    Question(questionText: "How do you write this word?らいげつ",
+    Question(questionText: "다음 한자를 히라가나로 올바르게 읽은것을 보기에서 찾으세요.らいげつ",
              possibleAnswers: [
              "今月",
              "来月",
@@ -173,7 +173,7 @@ struct Question: Hashable {
              "今週",
              ],
              correctAnswerIndex: 1),
-    Question(questionText: "What's the right word in parentheses?わたしの へやは この アパートの 2( )です.",
+    Question(questionText: "다음 일본어 문장을 읽고 괄호 안에 들어갈 알맞은 단어를 보기에서 고르세요.わたしの へやは この アパートの 2(❓)です.",
              possibleAnswers: [
              "ほん",
              "さつ",
@@ -181,7 +181,7 @@ struct Question: Hashable {
              "かい",
              ],
              correctAnswerIndex: 3),
-    Question(questionText: "What's the right word in parentheses?その ナイフで りんごを( )ください。",
+    Question(questionText: "다음 일본어 문장을 읽고 괄호 안에 들어갈 알맞은 단어를 보기에서 고르세요.その ナイフで りんごを(❓)ください。",
              possibleAnswers: [
              "おきて",
              "つけて",
@@ -189,7 +189,7 @@ struct Question: Hashable {
              "きって",
              ],
              correctAnswerIndex: 3),
-    Question(questionText: "What's the right word in parentheses?( )を わすれましたから、じかんが わかりません。",
+    Question(questionText: "다음 일본어 문장을 읽고 괄호 안에 들어갈 알맞은 단어를 보기에서 고르세요.(❓)を わすれましたから、じかんが わかりません。",
              possibleAnswers: [
              "じしょ",
              "ちず",
@@ -197,7 +197,7 @@ struct Question: Hashable {
              "さいふ",
              ],
              correctAnswerIndex: 2),
-    Question(questionText: "What's the right word in parentheses?わたしの うちは えきに ちかいですから、( )です。",
+    Question(questionText: "다음 일본어 문장을 읽고 괄호 안에 들어갈 알맞은 단어를 보기에서 고르세요.わたしの うちは えきに ちかいですから、(❓)です。",
              possibleAnswers: [
              "べんり",
              "じょうぶ",
@@ -205,7 +205,7 @@ struct Question: Hashable {
              "へた",
              ],
              correctAnswerIndex: 0),
-    Question(questionText: "What's the right word in parentheses?なつやすみは まいにち( )で およぎました。",
+    Question(questionText: "다음 일본어 문장을 읽고 괄호 안에 들어갈 알맞은 단어를 보기에서 고르세요.?なつやすみは まいにち(❓)で およぎました。",
              possibleAnswers: [
              "レストラン",
              "プール",
@@ -213,7 +213,7 @@ struct Question: Hashable {
              "ビル",
              ],
              correctAnswerIndex: 1),
-    Question(questionText: "What's the right word in parentheses?しらない ことばが ありましたから、せんせいに( )しました。",
+    Question(questionText: "다음 일본어 문장을 읽고 괄호 안에 들어갈 알맞은 단어를 보기에서 고르세요.しらない ことばが ありましたから、せんせいに(❓)しました。",
              possibleAnswers: [
              "しつもん",
              "べんきょう",
@@ -221,7 +221,7 @@ struct Question: Hashable {
              "じゅぎょう",
              ],
              correctAnswerIndex: 0),
-    Question(questionText: "What's the right word in parentheses?この へやは あついですから、( )を あけましょう。",
+    Question(questionText: "다음 일본어 문장을 읽고 괄호 안에 들어갈 알맞은 단어를 보기에서 고르세요.この へやは あついですから、(❓)を あけましょう。",
              possibleAnswers: [
              "おふろ",
              "まど",
@@ -229,7 +229,7 @@ struct Question: Hashable {
              "テーブル",
              ],
              correctAnswerIndex: 1),
-    Question(questionText: "What's the right word in parentheses?きのうは がっこうで たくさん かんじを(  )",
+    Question(questionText: "다음 일본어 문장을 읽고 괄호 안에 들어갈 알맞은 단어를 보기에서 고르세요.きのうは がっこうで たくさん かんじを(❓)",
              possibleAnswers: [
              "うりました",
              "もちました",
@@ -237,7 +237,7 @@ struct Question: Hashable {
              "こまりました",
              ],
              correctAnswerIndex: 2),
-    Question(questionText: "What's the right word in parentheses?この コーヒーは、さとうを たくさん いれましたから、 (  )です。",
+    Question(questionText: "다음 일본어 문장을 읽고 괄호 안에 들어갈 알맞은 단어를 보기에서 고르세요.この コーヒーは、さとうを たくさん いれましたから、 (❓)です。",
              possibleAnswers: [
              "わかい",
              "くろい",
@@ -245,7 +245,7 @@ struct Question: Hashable {
              "あまい",
              ],
              correctAnswerIndex: 3),
-    Question(questionText: "What's the right word in parentheses?つよい かぜが ( ) います。",
+    Question(questionText: "다음 일본어 문장을 읽고 괄호 안에 들어갈 알맞은 단어를 보기에서 고르세요.つよい かぜが (❓) います。",
              possibleAnswers: [
              "ふいて",
              "いそいで",
