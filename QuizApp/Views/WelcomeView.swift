@@ -13,7 +13,7 @@ struct WelcomeView: View {
             ZStack {
                 GameColor.main.ignoresSafeArea()
             VStack {
-                    Text("✏️Jlpt N4 단어퀴즈📚")
+                    Text("✏️Jlpt N5-N4 단어퀴즈📚")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .foregroundColor(Color.purple)
